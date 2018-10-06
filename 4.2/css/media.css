@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px) {
+	.container{
+		width: 100%;
+	}
+/* --- Header --- */
+	.logo {
+		margin-right: 0px;
+	}
+	.menu_item {
+		display: none;
+	}
+
+/* --- About --- */
+	.description_second {
+		float: left;
+	}
+	.rewards_items{
+		padding: 0px 0px;
+	}
+	.rewards_item {
+		margin-right: 20px;
+	}
+	.contacts_photo {
+		display: none;
+	}
+
+/* --- Skills --- */
+	.skills_item {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 766px) {
+	.container{
+		width: 100%;
+	}
+/* --- Header --- */
+	.menu_items {
+		display: none;
+	}
+	.arrow {
+		padding: 110px;
+	}
+/* --- About --- */
+	.description_first {
+		width: 100%;
+	}
+	.description_second {
+		width: 100%;
+	}
+	.rewards_item {
+		width: 100%;
+		margin-top: 10px;
+	}
+}

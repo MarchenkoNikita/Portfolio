@@ -1,0 +1,329 @@
+@font-face {
+	font-family: 'Natasha';
+	src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Natasha.svg#Natasha') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl_100';
+	src: url('../fonts/MuseoSansCyrl_100.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl_100_Italic';
+	src: url('../fonts/MuseoSansCyrl_100_Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl_300';
+	src: url('../fonts/MuseoSansCyrl_300.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl_300_Italic';
+	src: url('../fonts/MuseoSansCyrl_300_Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl_900';
+	src: url('../fonts/MuseoSansCyrl_900.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl_900_Italic';
+	src: url('../fonts/MuseoSansCyrl_900_Italic.ttf') format('truetype');
+}
+
+body {
+	font-family: MuseoSansCyrl_100, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+}
+
+/* --- Настольные Desktop бесконечность-1024px --- */
+section, div, li, ul, button {
+	box-sizing: border-box;
+}
+ul {
+	padding: 0px 0px;
+}
+h1, p, li, ul {
+	margin: 0px auto;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container{
+	width: 980px;
+	padding: 0px 20px;
+	margin: 0px auto;
+	background-color: white;
+}
+
+.container:nth-child(1){
+	background-color: transparent;
+}
+
+
+/*---Section Header---*/
+.header {
+	background: url(../img/bg.png) no-repeat;
+	padding: 0px 20px;
+	color: #fff;
+	}
+
+.menu {
+	display: block;
+	padding-top: 55px;
+	font-family: MuseoSansCyrl_900;
+	text-transform: uppercase;
+}
+
+.logo {
+	font-size: 17px;
+	float: left;
+	margin-right: 180px;
+}
+
+.logo_span{
+	font-family: MuseoSansCyrl_100;
+}
+
+.menu_item {
+	display: block;
+	float: left;
+	margin-right: 47px;
+}
+
+.header_link {
+	font-family: MuseoSansCyrl_300;
+	float: right;
+	color: white;
+	text-transform: none;
+	text-decoration: none;
+	border-bottom: 1px solid #70746f;
+}
+
+
+.title {
+	padding-top: 290px;
+	text-align: center;
+}
+
+h1 {
+	padding: 0px 0px;
+	font-size: 49px;
+	font-family: Natasha;
+}
+
+.title p {
+	text-transform: uppercase;
+	font-size: 29px;
+	font-weight: 100;
+	padding-top: 5px;
+}
+
+.arrow {
+	text-align: center;
+	padding: 255px 0px 80px 0px;
+}
+
+
+/* --- Section About ---*/
+.description_first{
+	float: left;
+	width: 50%
+}
+
+.description_text {
+	padding-right: 30px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 2;
+}
+
+h2 {
+	padding: 0px 0px 60px 0px;
+	margin: 0px auto;
+	margin-top: 87px;
+	font-family: Natasha;
+	font-size: 37px;
+}
+
+h3 {
+	color:#858683;
+	font-family: Natasha;
+	font-size: 22px;
+}
+
+.description_second {
+	float: right;
+	width: 50%;
+	padding-left: 15px;
+}
+
+.rewards_items {
+	padding: 0px 20px;
+}
+
+.rewards_item {
+	text-align: center;
+	width: 103px;
+	margin-right: 50px;
+	display: block;
+	float: left;
+}
+
+.rewards_item:nth-child(3) {
+	margin-right: 0px;
+}
+
+.rewards_item_text{
+	background: url(../img/romb.png) no-repeat center;
+	display: block;
+	padding: 40px 0px; 
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.rewards_item_underlinetext {
+	margin-top: 27px;
+	display: block;
+}
+
+.contacts {
+	padding-top: 55px; 
+	display: block;
+}
+
+.contacts_items {
+	display: block;
+	float: left;
+	list-style: none;
+}
+
+.contacts_link {
+	color: #204d15;
+	line-height: 2;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.contacts_photo {
+	padding-top: 10px; 
+	display: block;
+	float: right;
+	padding-left: 35px;
+}
+
+.contacts_img {
+	float: left;
+}
+
+.contacts_text { 
+	float: right;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: oblique;
+	padding: 20px 0px 20px 20px;
+}
+
+
+
+/*---Section Skills---*/
+.skills_item {
+	text-align: center;
+	width: 220px;
+	display: block;
+	float: left;
+}
+
+.skills_item_text{
+	float: left;
+	background: url(../img/elipse.png);
+	width: 61px;
+	display: inline-block;
+	padding: 23px 0px; 
+	font-size: 13px;
+	font-weight: 100;
+}
+
+.skills_item_underlinetext {
+	display: block;
+	float: left;
+	font-size: 15px;
+	font-weight: 900;
+	padding: 20px 0px 20px 25px;
+}
+
+
+/*---Works---*/
+.works_items {
+	padding-left: 0px;
+}
+.works_item {
+	position: relative;
+	text-align: center;
+	width: 300px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+
+.works_item:nth-child(3){
+	margin-right: 0px; 
+}
+
+
+.overlay {
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+
+	padding: 130px 0px;
+	display: none;
+}
+
+.works_item:hover .overlay {
+	display: block;
+}
+
+.overlay_text{
+	font-size: 15px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.overlay_link{
+	font-size: 13px;
+	font-weight: 300;
+	text-decoration: none;
+	border-bottom: 1px solid #70746f;
+	color: #fff;
+}
+
+/*---Footer---*/
+.footer_text {
+	float: left;
+	font-weight: 300;
+	font-size: 13px;
+	color: #858683;
+	padding: 120px 0px;
+}
